@@ -1,3 +1,44 @@
-body {
+.header {
+    z-index: 99;
+    font-size: 30px;
+    background-color: #AC3791;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    box-sizing: content-box;
+  }
+  
+  .nav-container {
+    margin: 0 auto;
+    padding-right: 45px;
+    padding-left: 45px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header .nav-link {
+    padding-top: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .header .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .header .nav-form {
+    padding-top: 25px;
+  }
+  
+  .nav-container .nav-title {
+    width: 80px;
+    color: #B9F0FF;
+  }
+  
+  body {
     font-family: 'Acme', sans-serif;
-}
+    background-color: #B9F0FF;
+    margin: 0;
+  }
