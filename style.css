@@ -1,44 +1,88 @@
+
+/***************Nav bar******************/
+
+/***TODO: Set min-width for navbar****/
 .header {
-    z-index: 99;
-    font-size: 30px;
-    background-color: #AC3791;
+  z-index: 99;
+  font-size: 30px;
+  background-color: #AC3791;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  box-sizing: content-box;
+  position: absolute;
+}
+
+.nav-container {
+  margin: 0 auto;
+  padding-right: 45px;
+  padding-left: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .nav-link {
+  padding-top: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header .nav-link:hover {
+  text-decoration: underline;
+}
+
+.header .nav-form {
+  padding-top: 25px;
+}
+
+.nav-container .nav-title {
+  width: 80px;
+  color: #B9F0FF;
+}
+
+/***************Banner******************/
+
+/***TODO: Adjust Size***/
+.banner-container {
+    margin-top: -60px;
+}
+
+.banner-container img {
     width: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
-    display: block;
-    box-sizing: content-box;
-  }
-  
-  .nav-container {
+}
+
+/***************Popular Books************/
+.highlights {
+    text-align: center;
     margin: 0 auto;
-    padding-right: 45px;
-    padding-left: 45px;
+}
+
+.highlights h1 {
+    font-size: 40px;
+}
+
+.highlights-images {
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     justify-content: space-between;
-  }
-  
-  .header .nav-link {
-    padding-top: 28px;
-    color: #FFFFFF;
-    text-decoration: none;
-  }
-  
-  .header .nav-link:hover {
-    text-decoration: underline;
-  }
-  
-  .header .nav-form {
-    padding-top: 25px;
-  }
-  
-  .nav-container .nav-title {
-    width: 80px;
-    color: #B9F0FF;
-  }
-  
-  body {
-    font-family: 'Acme', sans-serif;
-    background-color: #B9F0FF;
-    margin: 0;
-  }
+    flex-wrap: wrap;
+}
+
+.highlights-images img {
+    transition: all 0.25s;
+}
+
+.highlights-images img:hover {
+    transform: translateY(-0.4em);
+    opacity: 0.75;
+}
+
+/***************Webpage******************/
+body {
+  font-family: 'Acme', sans-serif;
+  background-color: #B9F0FF;
+  margin: 0;
+}
