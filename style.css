@@ -81,12 +81,12 @@
 }
 
 /***************Genres******************/
-.gen {
+.genre {
     text-align: center;
     margin: 0 auto;
 }
 
-.img {
+.genre-images {
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
