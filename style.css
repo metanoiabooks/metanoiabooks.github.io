@@ -80,6 +80,20 @@
     opacity: 0.75;
 }
 
+/***************Genres******************/
+.gen {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.img {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 /***************Webpage******************/
 body {
   font-family: 'Acme', sans-serif;
