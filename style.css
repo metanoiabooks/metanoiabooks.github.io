@@ -87,6 +87,8 @@
 }
 
 .img {
+    height = 676px;
+    width = 471px;
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
