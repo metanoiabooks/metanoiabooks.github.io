@@ -84,14 +84,18 @@
 .genre {
     text-align: center;
     margin: 0 auto;
+    
 }
 
 .genre-images {
-    padding-left: 50px;
+    /*padding-left: 50px;
     padding-right: 50px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
+    display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 /***************Webpage******************/
