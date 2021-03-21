@@ -100,8 +100,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    width: 50%;
-    margin-left: 25%;
   }
   .genre-images > div {
     display: flex; 
@@ -115,7 +113,7 @@
   }
 
   .gimage {
-      height: 20vh;
+/*       height: 20vh; */
   }
 
 /***************Webpage******************/
