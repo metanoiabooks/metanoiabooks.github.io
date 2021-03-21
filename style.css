@@ -87,13 +87,36 @@
     
 }
 
-.genre-images {
+/* .genre-images {
     /*padding-left: 50px;
     padding-right: 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;*/
-}
+} */
+
+.genre-images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .genre-images > div {
+    display: flex; 
+    flex-basis: calc(50% - 0px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .box {
+      margin-top: 20px;
+  }
+
+  .gimage {
+      height: 20vh;
+  }
 
 /***************Webpage******************/
 body {
