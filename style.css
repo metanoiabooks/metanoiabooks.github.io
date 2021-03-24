@@ -87,15 +87,19 @@
     
 }
 
-/* .genre-images {
-    /*padding-left: 50px;
+ .genre-images {
+    padding-left: 50px;
     padding-right: 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 } 
+.container {
+  flex: 25%;
+  padding: 5px;
+}
 
-  .genre-images {
+ /* .genre-images {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
