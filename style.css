@@ -92,8 +92,8 @@
     padding-right: 50px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;*/
-} 
+    flex-wrap: wrap;
+} */
 
 /*.genre-images {
     display: flex;
@@ -113,7 +113,7 @@
   }
 
   .gimage {
-/*       height: 20vh; */
+       height: 20vh; 
   }*/
 
 /***************Webpage******************/
