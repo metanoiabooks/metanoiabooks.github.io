@@ -94,6 +94,13 @@
   flex: 25%;
   padding: 5px;
 }
+.text1 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
 
  /* .genre-images {
     display: flex;
