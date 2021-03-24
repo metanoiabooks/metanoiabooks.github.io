@@ -93,9 +93,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;*/
-} */
+} 
 
-.genre-images {
+/*.genre-images {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -114,7 +114,7 @@
 
   .gimage {
 /*       height: 20vh; */
-  }
+  }*/
 
 /***************Webpage******************/
 body {
