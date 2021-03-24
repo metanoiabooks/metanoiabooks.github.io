@@ -119,6 +119,42 @@
        height: 20vh;
   }*/
 
+/************WWBI**********************/
+.WWBI {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.WWBI-images {
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.WWBI-images img {
+    transition: all 0.25s;
+}
+
+.WWBI-images img:hover {
+    transform: translateY(-0.4em);
+    opacity: 0.75;
+}
+
+.segments {
+  width: 100%;
+  text-align: center; 
+}
+
+.WWBI-segment {
+  width: 470px;
+  display: inline-block; 
+  font-size: 30px;
+}
+
+
 /***************Webpage******************/
 body {
   font-family: 'Acme', sans-serif;
