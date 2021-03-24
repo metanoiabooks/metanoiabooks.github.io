@@ -86,16 +86,19 @@
     margin: 0 auto;
     
 }
+.container {
+  flex: 25%;
+  padding: 5px;
+}
 
-/* .genre-images {
-    /*padding-left: 50px;
-    padding-right: 50px;
+ .genre-images {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;*/
-} */
+} 
+.text1 {
+  position: absolute;
+}
 
-.genre-images {
+ /* .genre-images {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -113,8 +116,8 @@
   }
 
   .gimage {
-/*       height: 20vh; */
-  }
+       height: 20vh;
+  }*/
 
 /************WWBI**********************/
 .WWBI {
