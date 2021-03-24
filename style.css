@@ -92,7 +92,7 @@
 }
 
  .genre-images {
-    display: flex;
+    position: relative;
 } 
 .text1 {
   position: absolute;
