@@ -81,7 +81,7 @@
 }
 
 /***************Genres******************/
-.genre {
+.topics {
     text-align: center;
     margin: 0 auto;    
 }
@@ -90,7 +90,7 @@
   flex-wrap: wrap;
 }
 .container {
-  /*flex: 25%;*/
+  flex: 33.33%;
   padding: 5px;
   /*align-items: center;*/
 }
