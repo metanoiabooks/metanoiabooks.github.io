@@ -87,7 +87,6 @@
 }
 .overall{
   display:flex;
-  flex-wrap: wrap;
 }
 .container {
   flex: 33.33%;
