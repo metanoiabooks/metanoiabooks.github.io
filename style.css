@@ -93,8 +93,9 @@
   padding: 5px;
   align-items: center;
 }
-.text1 {
+.container .text1 {
   position: absolute;
+  text-align: center;
 }
 
  /* .genre-images {
