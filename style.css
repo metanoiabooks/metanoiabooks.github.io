@@ -97,7 +97,8 @@
 }
 .text1 {
   position: absolute;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
  /* .genre-images {
