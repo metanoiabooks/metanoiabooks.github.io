@@ -94,7 +94,7 @@
   padding: 5px;
   align-items: center;
 }
-.container .text1 {
+.container > div {
   position: absolute;
   text-align: center;
 }
