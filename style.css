@@ -95,7 +95,7 @@
   align-items: center;
   justify-content: center;
 }
-.container > div {
+.text1 {
   position: absolute;
   text-align: center;
 }
