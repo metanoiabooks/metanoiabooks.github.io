@@ -114,7 +114,7 @@
   justify-content: center;
 }
 .text1 {
-  position: absolute;
+  position: relative;
   align-items: center;
   justify-content: center;
 }
