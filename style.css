@@ -155,6 +155,44 @@
   font-size: 30px;
 }
 
+/***************Footer*******************/
+
+.footer {
+  z-index: 99;
+  font-size: 30px;
+  background-color: #AC3791;
+  width: 100%;
+  height: 300px;
+  top: 0;
+  display: block;
+  box-sizing: content-box;
+  position: sticky;
+}
+
+.contact {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.footer .footer-link {
+  padding-left: 275px;
+  padding-right: 250px;
+  font-size: 34px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer .footer-link:hover {
+  text-decoration: underline;
+}
+
+.Copyright {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+  color: #C4C4C4;
+}
 
 /***************Webpage******************/
 body {
