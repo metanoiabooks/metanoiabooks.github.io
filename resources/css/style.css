@@ -1,7 +1,5 @@
 
 /***************Nav bar******************/
-
-/***TODO: Set min-width for navbar****/
 .header {
   z-index: 99;
   min-width: 800px;
