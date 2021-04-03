@@ -4,6 +4,7 @@
 /***TODO: Set min-width for navbar****/
 .header {
   z-index: 99;
+  min-width: 1024px;
   font-size: 30px;
   background-color: #AC3791;
   width: 100%;
@@ -64,14 +65,16 @@
 
 /***TODO: Adjust Size***/
 .banner-container {
-    margin-top: -60px;
+  margin-top: -60px;
 }
 
 .banner-container img {
-    width: 100%;
+  display: block;
+  width: 1300px;
+  margin: 0 auto;
 }
 
-/***************Popular Books************/
+/***************Popular Books***********
 .highlights {
     text-align: center;
     margin: 0 auto;
@@ -97,6 +100,7 @@
     transform: translateY(-0.4em);
     opacity: 0.75;
 }
+****************************************/
 
 /***************Genres******************/
 .topics {
@@ -105,40 +109,22 @@
 }
 .overall{
   display:flex;
-  position: relative;
 }
 .container {
   flex: 33.33%;
   padding: 5px;
+  position: relative;
   align-items: center;
   justify-content: center;
 }
 .text1 {
-  position: absolute;
+  position: relative;
   align-items: center;
   justify-content: center;
 }
 
- /* .genre-images {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .genre-images > div {
-    display: flex; 
-    flex-basis: calc(50% - 40px);  
-    justify-content: center;
-    flex-direction: column;
-  }
+.
 
-  .box {
-      margin-top: 20px;
-  }
-
-  .gimage {
-       height: 20vh;
-  }*/
 
 /************WWBI**********************/
 .WWBI {
@@ -175,10 +161,56 @@
   font-size: 30px;
 }
 
+/***************Footer*******************/
+
+.footer {
+  z-index: 99;
+  font-size: 30px;
+  background-color: #AC3791;
+  width: 100%;
+  height: 300px;
+  top: 0;
+  display: block;
+  box-sizing: content-box;
+  position: sticky;
+}
+
+.contact {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.footer .footer-link {
+  padding-left: 275px;
+  padding-right: 250px;
+  font-size: 34px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer .footer-link:hover {
+  text-decoration: underline;
+}
+
+.Copyright {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+  color: #C4C4C4;
+}
 
 /***************Webpage******************/
+.content {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
 body {
   font-family: 'Acme', sans-serif;
   background-color: #FCFAD9;
   margin: 0;
+  text-align: center;
 }
+
