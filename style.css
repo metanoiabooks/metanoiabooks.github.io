@@ -123,6 +123,15 @@
   justify-content: center;
 }
 
+/***********Newsletter************/
+.newsletter {
+            display: flex;
+            align-items: center;
+        }    
+        span {
+            padding: 10px;
+        }
+
 /************WWBI**********************/
 .WWBI {
   text-align: center;
