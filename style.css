@@ -65,11 +65,31 @@
 
 /***TODO: Adjust Size***/
 .banner-container {
+  position: relative;
+  top: 0;
+  left: 0;
   margin-top: -60px;
 }
 
+.banner-container .banner-background {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.banner-container .banner-slice {
+  position: absolute;
+  top: -35px;
+  left: 110px;
+}
+
+.banner-container .banner-graphic {
+  position: absolute;
+  top: 0;
+  left: 110px;
+}
+
 .banner-container img {
-  display: block;
   width: 1300px;
   margin: 0 auto;
 }
