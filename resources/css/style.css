@@ -69,64 +69,48 @@
   margin-top: -60px;
 }
 
-.banner-background {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.banner-slice {
-  position: absolute;
-  top: -35px;
-  left: 110px;
-}
-
-.banner-graphic {
-  position: absolute;
-  top: 0;
-  left: 110px;
-}
-
 .banner-container img {
-  width: 1300px;
+  width: 90%;
   margin: 0 auto;
+  min-width: 480px;
 }
 .banner-title {
   position: absolute;
-  top: 130px;
-  left: 200px;
-  font-size: 72px;
+  top: 20%;
+  left: 12%;
+  font-size: 3.5vw;
   color: #AC3791;
 }
 
 .banner-text {
   position: absolute;
-  left: 200px;
-  font-size: 42px;
+  left: 12%;
+  font-size: 2.0vw;
   font-weight: 500;
   font-family: 'Jost', sans-serif;
   color: #505F98;
+  white-space: nowrap;
 }
 
 #row1 {
-  top: 255px;
+  top: 33%;
 }
 
 #row2 {
-  top: 315px;
+  top: 41%;
 }
 
 .banner-button {
   border: 0;
   position: absolute;
-  top: 425px;
-  left: 200px;
-  width: 200px;
-  height: 55px;
+  top: 55%;
+  left: 12%;
+  width: 12.0vw;
+  height: 3vw;
   border-radius: 30px;
   background-color: #AC3791;
   color: #FFFFFF;
-  font-size: 28px;
+  font-size: 1.8vw;
   text-decoration: none;
   text-shadow: 1px 1px black;
   box-shadow: 1px 1px 8px black;
