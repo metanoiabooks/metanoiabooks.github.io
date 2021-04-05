@@ -1,6 +1,5 @@
 /***************Banner******************/
 
-/***TODO: Adjust Size***/
 .banner-container {
   position: relative;
   top: 0;
@@ -13,6 +12,7 @@
   margin: 0 auto;
   min-width: 480px;
 }
+
 .banner-title {
   position: absolute;
   top: 20%;
