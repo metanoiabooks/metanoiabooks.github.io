@@ -1,1 +1,54 @@
-/*TODO: Fill all this out to style whatever is between header and footer*/
+/********Subscribe Heading*********/
+.heading {
+    margin: 50px auto;
+    width: 40%;
+    position: relative;
+}
+
+.background-image {
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    display: block;
+}
+
+.heading-text {
+    top: 0;
+    left: 0;
+    position: absolute;
+    font-size: 3.0vw;
+    text-align: center;
+    color: #AC3791;
+}
+
+/**************Forms***************/
+.forms {
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    font-size: 2vw;
+    font-family: "Jost", sans-serif;
+}
+
+.form-container {
+    margin: 30px auto;
+    width: 100%;
+}
+
+.label {
+    color: #505F98;
+}
+
+.form {
+    position: absolute;
+    right: 0;
+    font-size: 2vw;
+    font-family: "Jost", sans-serif;
+}
+
+.check-box-container {
+    margin-top: -6%;
+    right: 0;
+    position: absolute;
+
+}
