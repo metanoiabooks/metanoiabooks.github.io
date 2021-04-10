@@ -1,5 +1,5 @@
 /*TODO: Fill all this out to style whatever is between header and footer*/
-/********Subscribe Heading*********/
+/********Login Heading*********/
 .heading {
     margin: 50px auto;
     width: 40%;
@@ -29,9 +29,6 @@
     width: 100%;
 }
 
-.label {
-    color: #505F98;
-}
 
 .form {
     position: absolute;
