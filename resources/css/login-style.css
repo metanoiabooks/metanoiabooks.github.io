@@ -17,8 +17,8 @@
 
 /**************Forms***************/
 .forms {
-    margin: 0 auto;
-    width: 50%;
+    /**margin: 0 auto;
+    width: 50%;**/
     position: relative;
     font-size: 2vw;
     font-family: "Jost", sans-serif;
