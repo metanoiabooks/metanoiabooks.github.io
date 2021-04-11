@@ -1,4 +1,8 @@
 /*TODO: Fill all this out to style whatever is between header and footer*/
 /********Login Heading*********/
+.heading-text {
+    font-size: 3.0vw;
+    color: #AC3791;
+}
 
 /**************Forms***************/
